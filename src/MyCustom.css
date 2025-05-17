@@ -4,8 +4,64 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .header ul{
     list-style: none;
+   
 }
+
 .header li{
+    
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.header li a{
+text-decoration: none;
+color: white;
+}
+
+.Sidebar .childDiv{
+    min-height: 100vh;
+    color: white;
+    background-color: #ff0000;
+}
+
+.Sidebar .childDiv hr{
+border-bottom: solid 2px;
+}
+
+.Sidebar .h3{
+    text-align: center;
+    color: white;
+}
+
+.Sidebar .childDiv ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.Sidebar .childDiv li{
+    background-color: black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Sidebar .childDiv li:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+.Sidebar .childDiv a{
+color: white;
+text-decoration: none;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+.card img{
+    max-height: 300px;
+    width: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
