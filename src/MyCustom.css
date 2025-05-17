@@ -1,0 +1,11 @@
+.header h1{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header ul{
+    list-style: none;
+}
+.header li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
