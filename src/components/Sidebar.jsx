@@ -12,7 +12,7 @@ function Sidebar(){
                 <ul className="pt-4 ">
                     <li><a href="#">Profile</a></li>
                     <li><a href="#">News</a></li>
-                    <li><a href="#">Messenger</a></li>
+                    <li><a href="#">Message</a></li>
                     <li><a href="#">Friends</a></li>
                     <li><a href="#">Videos</a></li>
                     <li><a href="#">Images</a></li>

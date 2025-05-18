@@ -16,7 +16,7 @@ function App() {
   return (
     <>
     <TopNavigation/>
-    <div className='contents container shadow-sm'>
+    <div className='container'>
 
    
     <div className='row'>

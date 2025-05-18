@@ -1,3 +1,5 @@
+import Post from "./Post"
+
 function Main(){
 
     return(
@@ -7,15 +9,11 @@ function Main(){
             </div>
             <hr />
 
-            <div className="card my-2 border-0">
-                <h4>Peacock</h4>
-                <img className="img-fluid" src="/img1.webp" alt="" />
-            </div>
 
-            <div className="card my-2 border-0">
-                <h4>Evening Sunset</h4>
-                <img className="img-fluid" src="/img3.webp" alt="" />
-            </div>
+            <Post postText="Hello, everyone!" name="Lakshmi"/>
+            <Post postText="Oops! Sun is gone!" name="Vishnu"/>
+
+
         </main>
     )
 }

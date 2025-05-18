@@ -58,7 +58,7 @@ color: white;
 }
 
 .Sidebar .childDiv{
-    min-height: 100vh;
+    max-height: 100%;
     color: white;
     border-right: solid 1px rgba(0, 0, 0, 0.11);
     
@@ -102,9 +102,15 @@ padding-right: 5px;
 
 }
 
-.card img{
-    max-height: 300px;
+.card img.avatar{
+    max-height: 90px;
     width: auto;
     border-radius: 10px;
+    clip-path: circle();
     object-fit: cover;
+}
+
+.feedContent img.postImage{
+width: auto;
+height: fit-content;
 }
