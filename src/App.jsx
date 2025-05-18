@@ -16,10 +16,10 @@ function App() {
   return (
     <>
     <TopNavigation/>
-    <div className='container shadow-sm'>
+    <div className='contents container shadow-sm'>
 
    
-    <div className='row '>
+    <div className='row'>
     <Sidebar/>
     <Main/>
     </div>
