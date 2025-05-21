@@ -21,9 +21,9 @@ function TopNavigation(){
     
                 </div>
 
-            <div className='d-none d-md-block' style={{minWidth:"400px"}}>
-                <input id='search' className='form-control' type="search" placeholder="Search" aria-label="Search"/>
-            </div>
+                <div className='d-none d-md-block' style={{minWidth:"400px"}}>
+                    <input id='search' className='form-control' type="search" placeholder="Search" aria-label="Search"/>
+                </div>
 
                 <div>
                     <ul class="navbar-nav me-auto gap-2 mb-2 mb-lg-0 gap-3" style={{flexDirection:"row"}}>

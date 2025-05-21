@@ -1,8 +1,9 @@
+import PostInteraction from "./PostInteraction"
 
 function Post(props){
 
     return(
-              <div className="feedContent card py-1 pb-4 px-5 my-3 border-0">
+              <div className="feedContent shadow-sm card py-1 pb-4 px-5 my-3 border-0">
                 <div className="d-flex align-items-center">
 
                     <img className="avatar img-fluid" height="50px" src="/img1.webp" alt="testimage"/>
@@ -22,6 +23,8 @@ function Post(props){
                 <p>{props.postText}</p>
 
                 <img className="postImage img-fluid" src="/img3.webp" alt="test" />
+
+                 <PostInteraction/>
             </div>
     )
 }

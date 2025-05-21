@@ -9,10 +9,10 @@ function Main(){
             </div>
             <hr />
 
-
             <Post postText="Hello, everyone!" name="Lakshmi"/>
             <Post postText="Oops! Sun is gone!" name="Vishnu"/>
 
+           
 
         </main>
     )
