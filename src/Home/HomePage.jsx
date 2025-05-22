@@ -3,6 +3,9 @@ import './HomePage.css'
 import logo from '../assets/athisoft.png'
 import social from '../assets/social.png'
 import Footer from '../components/Footer'
+
+import { Link } from 'react-router-dom'
+
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faUser} from '@fortawesome/free-solid-svg-icons'
 import {faComment} from '@fortawesome/free-solid-svg-icons'
@@ -20,8 +23,9 @@ function HomePage(){
             <div className="container">
 
                 <div className='d-flex align-items-center'>
-                    <a className="navbar-brand p-0" href="/"><img style={imageStyle} src={logo} alt="athisoft-logo"/></a>  
-    
+                    <Link to='/'>
+                        <a className="navbar-brand p-0" href="#"><img style={imageStyle} src={logo} alt="athisoft-logo"/></a>  
+                    </Link>
                 </div>
 
 
@@ -37,7 +41,9 @@ function HomePage(){
                         </li>
 
                         <li class="nav-item">
-                          <a href="/userpage"> <button className='btn btn-danger'>Login</button> </a> 
+                          <Link to='/userpage'>
+                          <a href="#"> <button className='btn btn-danger'>Login</button> </a> 
+                          </Link>
                         </li>
 
                     </ul>

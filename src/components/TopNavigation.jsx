@@ -5,6 +5,8 @@ import {faUser} from '@fortawesome/free-solid-svg-icons'
 import {faComment} from '@fortawesome/free-solid-svg-icons'
 import {faGrip} from '@fortawesome/free-solid-svg-icons'
 
+import { Link } from 'react-router-dom'
+
 import './TopNavigation.css'
 
 function TopNavigation(){
@@ -19,8 +21,9 @@ function TopNavigation(){
             <div className="container">
 
                 <div className='d-flex align-items-center'>
-                    <a className="navbar-brand p-0" href="/"><img style={imageStyle} src={logo} alt="athisoft-logo"/></a>  
-    
+                    <Link to='/'>
+                     <a className="navbar-brand p-0" href="/"><img style={imageStyle} src={logo} alt="athisoft-logo"/></a>  
+                    </Link>
                 </div>
 
                 <div className='d-none d-md-block' style={{minWidth:"400px"}}>
