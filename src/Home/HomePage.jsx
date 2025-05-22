@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './MyCustom.css'
+import './HomePage.css'
 import logo from '../assets/athisoft.png'
 import social from '../assets/social.png'
 import Footer from '../components/Footer'
@@ -30,7 +30,6 @@ function HomePage(){
 
                         <li class="nav-item">
                             <input className='form-control' type="text" placeholder='Email'/>
-                            
                         </li>
 
                         <li class="nav-item">
@@ -38,7 +37,7 @@ function HomePage(){
                         </li>
 
                         <li class="nav-item">
-                            <button className='btn btn-danger'>Login</button>
+                          <a href="/userpage"> <button className='btn btn-danger'>Login</button> </a> 
                         </li>
 
                     </ul>

@@ -1,0 +1,16 @@
+nav .message a{
+    position: relative;
+    display: inline-block;
+}
+
+nav .message p{
+    font-size:x-small;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 18px;
+    left: 5px;
+
+    z-index: 1;
+   
+}

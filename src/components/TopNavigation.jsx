@@ -5,6 +5,8 @@ import {faUser} from '@fortawesome/free-solid-svg-icons'
 import {faComment} from '@fortawesome/free-solid-svg-icons'
 import {faGrip} from '@fortawesome/free-solid-svg-icons'
 
+import './TopNavigation.css'
+
 function TopNavigation(){
 
     const imageStyle = {
@@ -34,10 +36,14 @@ function TopNavigation(){
                         </a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item message">
                         <a class="nav-link active" title='Message' aria-current="page" href="#">
                            <FontAwesomeIcon icon={faComment} /> 
+                           
+                           <p>10+</p>
                         </a>
+
+                        
                         </li>
 
                         <li class="nav-item">

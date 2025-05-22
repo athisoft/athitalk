@@ -11,13 +11,11 @@ import TopNavigation from './components/TopNavigation'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     <TopNavigation/>
     <div className='container'>
-
    
     <div className='row'>
     <Sidebar/>

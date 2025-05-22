@@ -1,0 +1,30 @@
+.card{
+    border :none !important;
+    border-radius: 12px !important;
+}
+.contentPost input{
+        padding:8px;
+        border :none !important;
+        background-color: #eeeeee;
+        color: #000;
+        border-radius: 20px;
+        caret-color: transparent;
+        transition: padding ease-in-out 0.3s;
+}
+.contentPost input:hover{
+background-color: #e7e7e7;
+}
+.contentPost input:focus{
+        outline: none;
+}
+
+.contentPost input::placeholder{
+    text-align: center;
+    font-size:1.1em;
+    color: #a1a1a1;
+}
+
+.contentPost img{
+    max-width: 60px;
+    display: inline;
+}
