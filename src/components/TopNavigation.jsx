@@ -31,7 +31,7 @@ function TopNavigation(){
                 </div>
 
                 <div>
-                    <ul class="navbar-nav me-auto gap-2 mb-2 mb-lg-0 gap-3" style={{flexDirection:"row"}}>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3" style={{flexDirection:"row"}}>
 
                         <li class="nav-item">
                         <a class="nav-link active" title='Menu' aria-current="page" href="#">
@@ -45,8 +45,6 @@ function TopNavigation(){
                            
                            <p>10+</p>
                         </a>
-
-                        
                         </li>
 
                         <li class="nav-item">

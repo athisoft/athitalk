@@ -6,12 +6,6 @@ import Footer from '../components/Footer'
 
 import { Link } from 'react-router-dom'
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faUser} from '@fortawesome/free-solid-svg-icons'
-import {faComment} from '@fortawesome/free-solid-svg-icons'
-import {faGrip} from '@fortawesome/free-solid-svg-icons'
-import { width } from '@fortawesome/free-brands-svg-icons/fa42Group'
-
 function HomePage(){
     const imageStyle = {
       maxHeight:"40px",
@@ -30,7 +24,7 @@ function HomePage(){
 
 
                 <div>
-                    <ul class="navbar-nav me-auto gap-2 mb-2 mb-lg-0 gap-3" style={{flexDirection:"row"}}>
+                    <ul class="navbar-nav me-auto gap-2 mb-2 mb-lg-0 gap-3 align-items-center" style={{flexDirection:"row"}}>
 
                         <li class="nav-item">
                             <input className='form-control' type="text" placeholder='Email'/>
@@ -77,7 +71,7 @@ function HomePage(){
                          
                             <input className='form-control' type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder='Confirm Password'/>
 
-                            <button className='btn btn-danger mt-2' style={{width:"fit-content"}}>Register</button>
+                            <button className='btn btn-danger mt-1' style={{width:"fit-content"}}>Register</button>
 
                             </div>
 

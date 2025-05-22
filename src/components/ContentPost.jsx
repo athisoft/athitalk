@@ -9,10 +9,10 @@ function ContentPost(){
             
             <div className="d-flex align-items-center justify-content-center px-lg-2 px-0">
             <img className="rounded-circle img-fluid" src="/images/profilePlaceholder.png" alt="profileImage" />  
-            <input className="mx-1 mx-lg-4" style={{width:'100%', maxWidth:'600px', height:'fit-content'}} id="contentPost"  placeholder="Tell something to the world?"/>
+            <input className="mx-1 mx-lg-4 px-3" style={{width:'100%', maxWidth:'600px', height:'fit-content'}} id="contentPost"  placeholder="Tell something to the world?"/>
             </div>
             
-            <hr className="my-2" />
+            <hr className="my-2 mx-5" />
 
             <div className="d-flex gap-2 justify-content-center">
             <a className='btn btn-danger px-5' style={{Width:"fit-content"}}>Post</a>
