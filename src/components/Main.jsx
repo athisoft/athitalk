@@ -11,8 +11,8 @@ function Main(){
 
             </div>
 
-            <Post postText="Hello, everyone!" name="Lakshmi"/>
-            <Post postText="Oops! Sun is gone!" name="Vishnu"/>
+            <Post postText="Hello, everyone!" name="Lakshmi" time="5 Hours ago"/>
+            <Post postText="Oops! Sun is gone!" name="Vishnu" time="2 Hours ago"/>
 
            
 

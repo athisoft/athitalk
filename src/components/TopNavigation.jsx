@@ -31,24 +31,24 @@ function TopNavigation(){
                 </div>
 
                 <div>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3" style={{flexDirection:"row"}}>
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-3" style={{flexDirection:"row"}}>
 
-                        <li class="nav-item">
-                        <a class="nav-link active" title='Menu' aria-current="page" href="#">
+                        <li className="nav-item">
+                        <a className="nav-link active" title='Menu' aria-current="page" href="#">
                            <FontAwesomeIcon icon={faGrip} /> 
                         </a>
                         </li>
 
-                        <li class="nav-item message">
-                        <a class="nav-link active" title='Message' aria-current="page" href="#">
+                        <li className="nav-item message">
+                        <a className="nav-link active" title='Message' aria-current="page" href="#">
                            <FontAwesomeIcon icon={faComment} /> 
                            
                            <p>10+</p>
                         </a>
                         </li>
 
-                        <li class="nav-item">
-                        <a class="nav-link active" title='Profile' aria-current="page" href="#">
+                        <li className="nav-item">
+                        <a className="nav-link active" title='Profile' aria-current="page" href="#">
                             <FontAwesomeIcon icon={faUser} />
                         </a>
                         </li>

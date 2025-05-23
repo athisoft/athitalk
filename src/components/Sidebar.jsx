@@ -5,6 +5,7 @@ import {faMessage} from '@fortawesome/free-solid-svg-icons'
 import {faUserFriends} from '@fortawesome/free-solid-svg-icons'
 import {faVideo} from '@fortawesome/free-solid-svg-icons'
 import {faImage} from '@fortawesome/free-solid-svg-icons'
+import './Sidebar.css'
 
 function Sidebar(){
 
@@ -28,6 +29,8 @@ function Sidebar(){
                 </ul>
             </div>
             
+            <hr />
+            <p className='p-0'>Made by AthiSoft</p>
 
         </aside>
     )

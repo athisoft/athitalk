@@ -17,26 +17,26 @@ function HomePage(){
             <div className="container">
 
                 <div className='d-flex align-items-center'>
-                    <Link to='/'>
-                        <a className="navbar-brand p-0" href="#"><img style={imageStyle} src={logo} alt="athisoft-logo"/></a>  
+                    <Link to='/' className='navbar-brand p-0'>
+                        <img style={imageStyle} src={logo} alt="athisoft-logo"/>
                     </Link>
                 </div>
 
 
                 <div>
-                    <ul class="navbar-nav me-auto gap-2 mb-2 mb-lg-0 gap-3 align-items-center" style={{flexDirection:"row"}}>
+                    <ul className="navbar-nav me-auto gap-2 mb-2 mb-lg-0 gap-3 align-items-center" style={{flexDirection:"row"}}>
 
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <input className='form-control' type="text" placeholder='Email'/>
                         </li>
 
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <input className='form-control' type="password" placeholder='Password'/>
                         </li>
 
-                        <li class="nav-item">
+                        <li className="nav-item">
                           <Link to='/userpage'>
-                          <a href="#"> <button className='btn btn-danger'>Login</button> </a> 
+                          <button className='btn btn-danger'>Login</button> 
                           </Link>
                         </li>
 

@@ -1,4 +1,6 @@
-import { height } from "@fortawesome/free-brands-svg-icons/fa42Group"
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faFeatherPointed} from '@fortawesome/free-solid-svg-icons'
+import {faRotateLeft} from '@fortawesome/free-solid-svg-icons'
 import './ContentPost.css'
 
 
@@ -15,8 +17,8 @@ function ContentPost(){
             <hr className="my-2 mx-5" />
 
             <div className="d-flex gap-2 justify-content-center">
-            <a className='btn btn-danger px-5' style={{Width:"fit-content"}}>Post</a>
-            <a className='btn btn-danger px-5' style={{Width:"fit-content"}}>Reset</a>
+            <a className='btn btn-danger px-5' style={{Width:"fit-content"}}> <FontAwesomeIcon icon={faFeatherPointed} /> Post</a>
+            <a className='btn btn-danger px-5' style={{Width:"fit-content"}}> <FontAwesomeIcon icon={faRotateLeft} /> Reset</a>
             </div>
         </div>
     )
